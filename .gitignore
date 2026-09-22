@@ -1,0 +1,15 @@
+# Data and downloads created when running the notebooks
+data/
+glove.6B.*
+*.zip
+*.pth
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db

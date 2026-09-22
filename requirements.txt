@@ -1,0 +1,9 @@
+numpy
+pandas
+matplotlib
+scikit-learn
+tensorflow   # used only to download the IMDB dataset
+torch
+torchvision
+nltk
+jupyter
