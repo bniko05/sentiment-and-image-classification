@@ -21,7 +21,7 @@ Click an **Open in Colab** badge above and choose **Runtime → Run all**. Datas
 
 - Notebook 01 runs on the default CPU runtime.
 - Notebooks 02 and 03 need a GPU: **Runtime → Change runtime type → T4 GPU**.
-- 
+   
 ---
 
 ## IMDB sentiment: classical classifiers
