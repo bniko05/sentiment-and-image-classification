@@ -1,6 +1,6 @@
-# Sentiment Analysis & Image Classification: From Classical ML to Deep Learning
+# Sentiment Analysis & Image Classification
 
-Three end-to-end machine learning pipelines covering two tasks:
+Three machine learning pipelines covering two tasks:
 
 1. **Text classification:** classifying IMDB movie reviews as positive or negative, comparing classical classifiers built on hand-engineered features against a deep **stacked BiLSTM with attention**.
 2. **Image classification:** classifying Fashion-MNIST clothing images by fine-tuning a pre-trained **ResNet-18**.
