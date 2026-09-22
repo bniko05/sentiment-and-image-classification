@@ -1,9 +1,4 @@
-# 🧠 Sentiment Analysis & Image Classification: From Classical ML to Deep Learning
-
-![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
-![Course](https://img.shields.io/badge/AUEB-Artificial%20Intelligence%202025-blue)
+# Sentiment Analysis & Image Classification: From Classical ML to Deep Learning
 
 Three end-to-end machine learning pipelines covering two tasks:
 
@@ -20,25 +15,16 @@ All notebooks include their saved outputs, so results and plots can be viewed di
 
 ---
 
-## ▶️ How to run
+## How to run
 
 Click an **Open in Colab** badge above and choose **Runtime → Run all**. Datasets and pre-trained weights are downloaded automatically.
 
 - Notebook 01 runs on the default CPU runtime.
-- Notebooks 02 and 03 need a GPU: **Runtime → Change runtime type → T4 GPU** (available on the free tier).
-
-To run locally instead:
-
-```bash
-git clone https://github.com/bniko05/sentiment-and-image-classification.git
-cd sentiment-and-image-classification
-pip install -r requirements.txt
-jupyter notebook notebooks/
-```
-
+- Notebooks 02 and 03 need a GPU: **Runtime → Change runtime type → T4 GPU**.
+- 
 ---
 
-## 1️⃣ IMDB sentiment: classical classifiers
+## IMDB sentiment: classical classifiers
 
 **Dataset:** 50,000 IMDB reviews (25,000 train / 25,000 test), balanced between positive and negative.
 
@@ -70,7 +56,7 @@ The Random Forest fits the training set perfectly (train F1 = 1.0) yet still gen
 
 ---
 
-## 2️⃣ IMDB sentiment: stacked BiLSTM with attention
+## IMDB sentiment: stacked BiLSTM with attention
 
 ### Architecture
 ```
@@ -115,7 +101,7 @@ The BiLSTM outperforms every classical model. Word embeddings capture semantic s
 
 ---
 
-## 3️⃣ Fashion-MNIST: fine-tuned ResNet-18
+## Fashion-MNIST: fine-tuned ResNet-18
 
 **Dataset:** 70,000 grayscale 28×28 images of clothing across 10 classes (48,000 train / 12,000 validation / 10,000 test).
 
@@ -147,7 +133,7 @@ Most classes exceed 0.97 F1. The hardest classes are **Shirt** and **T-shirt/top
 
 ---
 
-## 🗂️ Repository structure
+## Repository structure
 
 ```
 ├── notebooks/
@@ -163,9 +149,9 @@ Most classes exceed 0.97 F1. The hardest classes are **Shirt** and **T-shirt/top
 
 ---
 
-## 👥 Authors
+## Authors
 
-Developed as the second programming assignment for the **Artificial Intelligence** course (2025), Department of Informatics, Athens University of Economics and Business.
+Developed as an assignment for the **Artificial Intelligence** course (2025), Department of Informatics, Athens University of Economics and Business.
 
 - **Vasileios Nikolaou** ([@bniko05](https://github.com/bniko05))
 - **Giorgos Papachristos**
